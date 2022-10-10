@@ -23,9 +23,7 @@ app.get('/productos', async (req, res) => {
 
     const productos = await contenedor.getAll();
 
-    res.render("vista", {
-        productos: productos,
-    });
+    res.render("vista", { productos });
 });
 
 /* ---------------------------- */

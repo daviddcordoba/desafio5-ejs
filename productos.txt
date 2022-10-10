@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Compu tadora",
+    "price": "123",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678077-computer-512.png",
+    "id": 1
+  }
+]

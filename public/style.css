@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #050727 0%, #000000 100%);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Estilos para la tabla */
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+th {
+    background: #ffffff;
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background: #050727;
+}
+
+tr:nth-child(odd) {
+    background: #000000;
+}
+
+
+
+img {
+    width: 50px;
+}
+
+.btn {
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+}
+
+/* Hacer que en hover tenga profundidad */
+.btn:hover {
+    box-shadow: 0 0 10px #ffffff;
+    font-weight: bolder;
+    transition: .5s;
+}
